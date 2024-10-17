@@ -1,52 +1,56 @@
+body {
+  width:  32rem; 
+  height: 17.3rem;
+  border: 1px solid lightgrey;
+}
+
 .flag-container {
   display: grid;
-  grid-template-columns: 400px 40.5%;
+  grid-template-columns: 200px;
   grid-template-rows: repeat(13, 14.2%);
 }
 img {
-  width: 400px;
-  height: 250px;
+  width: 200px;
+  height: 150px;
 }
 
-.red-stripes{
-    background-color: red;
+.red-stripes {
+  background-color: red;
 }
 
 .one {
-    
-    grid-column-start: 2;
+  grid-column-start: 2;
 }
 
-.two{
-    grid-column-start: 2;
-    grid-row-start: 3;
+.two {
+  grid-column-start: 2;
+  grid-row-start: 3;
 }
 
-.three{
-    grid-column-start: 2;
-    grid-row-start: 5;
+.three {
+  grid-column-start: 2;
+  grid-row-start: 5;
 }
 
-.four{
-    grid-column-start: 2;
-    grid-row-start: 7;
+.four {
+  grid-column-start: 2;
+  grid-row-start: 7;
 }
 
-.five{
-    grid-column-start: 1;
-    grid-column-end: 3;
-    grid-row-start: 9;
+.five {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 9;
 }
 
-.six{
-    grid-column-start: 1;
-    grid-column-end: 3;
-    grid-row-start: 11;
+.six {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 11;
 }
 
-.seven{
-    grid-column-start: 1;
-    grid-column-end: 3;
-    grid-row-start: 13;
+.seven {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  grid-row-start: 13;
 }
-
