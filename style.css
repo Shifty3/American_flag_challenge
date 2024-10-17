@@ -5,6 +5,8 @@ body {
 
 .flag {
   width: 100%;
+  height: 103%;
+  border: 1px solid lightgrey;
 }
 
 .flag-container {
