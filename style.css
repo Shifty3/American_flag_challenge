@@ -1,0 +1,52 @@
+.flag-container {
+  display: grid;
+  grid-template-columns: 400px 40.5%;
+  grid-template-rows: repeat(13, 14.2%);
+}
+img {
+  width: 400px;
+  height: 250px;
+}
+
+.red-stripes{
+    background-color: red;
+}
+
+.one {
+    
+    grid-column-start: 2;
+}
+
+.two{
+    grid-column-start: 2;
+    grid-row-start: 3;
+}
+
+.three{
+    grid-column-start: 2;
+    grid-row-start: 5;
+}
+
+.four{
+    grid-column-start: 2;
+    grid-row-start: 7;
+}
+
+.five{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 9;
+}
+
+.six{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 11;
+}
+
+.seven{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 13;
+}
+
