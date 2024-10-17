@@ -1,7 +1,10 @@
 body {
-  width:  32rem; 
+  width: 32rem;
   height: 17.3rem;
-  border: 1px solid lightgrey;
+}
+
+.flag {
+  width: 100%;
 }
 
 .flag-container {
